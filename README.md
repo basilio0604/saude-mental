@@ -1,1 +1,1 @@
-# saude-mental
+um site sobre saude mental que de dicas e fale sobre como tratar a saude metal, nele tera uma inteligencial artificial que podera conversar com a pessoa quando ela se sentir mal, nesse site tera dicas sobre saude mental e sobre todos os problemas mental que uma pessoa pode ter e como evitar, nele tera dicas de coisas para fazer e ocupar a cabeça, no site tambem tera um lugar que a pessoa podera colocar como esta se sentindo # saude-mental
