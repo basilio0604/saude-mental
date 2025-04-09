@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Saúde Mental - Cuide de Sua Mente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#dicas">Dicas</a></li>
+                <li><a href="#problemas">Problemas Mentais</a></li>
+                <li><a href="#sentimento">Como Você Está?</a></li>
+                <li><a href="#chat">Conversar com a IA</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="introducao">
+        <h1>Bem-vindo ao nosso site sobre Saúde Mental</h1>
+        <p>Aqui você encontrará informações valiosas sobre como cuidar da sua saúde mental, como lidar com problemas psicológicos e encontrar apoio.</p>
+    </section>
+
+    <section id="dicas">
+        <h2>Dicas para Cuidar da Sua Saúde Mental</h2>
+        <ul>
+            <li>Pratique exercícios físicos regularmente</li>
+            <li>Mantenha uma alimentação saudável</li>
+            <li>Durma o suficiente</li>
+            <li>Busque apoio emocional quando necessário</li>
+            <li>Encontre atividades que te relaxem, como meditação ou leitura</li>
+        </ul>
+    </section>
+
+    <section id="problemas">
+        <h2>Problemas Mentais Comuns e Como Lidar</h2>
+        <p>É importante reconhecer que problemas de saúde mental são comuns e tratáveis. Alguns exemplos incluem:</p>
+        <ul>
+            <li>Ansiedade: Busque técnicas de relaxamento e respiração.</li>
+            <li>Depressão: Fale com um profissional e não hesite em procurar ajuda.</li>
+            <li>Transtornos Alimentares: Encontre apoio psicológico e desenvolva uma relação saudável com a comida.</li>
+            <li>Estresse: Pratique atividades que ajudem a aliviar a pressão, como ioga e caminhadas ao ar livre.</li>
+        </ul>
+    </section>
+
+    <section id="sentimento">
+        <h2>Como Você Está Se Sentindo?</h2>
+        <form action="#" method="POST">
+            <label for="sentimento">Escolha seu sentimento atual:</label>
+            <select id="sentimento" name="sentimento">
+                <option value="feliz">Feliz</option>
+                <option value="triste">Triste</option>
+                <option value="ansioso">Ansioso</option>
+                <option value="estressado">Estressado</option>
+                <option value="confuso">Confuso</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="chat">
+        <h2>Conversar com a Inteligência Artificial</h2>
+        <p>Se você está se sentindo mal, a IA pode te ajudar. Clique abaixo para iniciar uma conversa.</p>
+        <button id="start-chat">Iniciar Chat</button>
+        <div id="chat-window" style="display: none;">
+            <!-- Aqui é onde o chat com a IA será exibido -->
+            <p><strong>IA:</strong> Olá, como você está se sentindo hoje?</p>
+            <input type="text" id="user-input" placeholder="Digite sua mensagem...">
+            <button id="send-message">Enviar</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Saúde Mental - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
